@@ -17,14 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CGSize s = [UIScreen mainScreen].bounds.size;
-    CGFloat x = 100;
-    CGFloat y = s.height - 50;
-    CGFloat h = 50;
-    CGFloat w= s.width;
-    ChatBar *chatBar = [[ChatBar alloc] initWithFrame:CGRectMake(x, y, w, h)];
     
-    [self.view addSubview:chatBar];
+//代码初始化自定义控件
+//    CGSize s = [UIScreen mainScreen].bounds.size;
+//    CGFloat x = 100;
+//    CGFloat y = s.height - 50;
+//    CGFloat h = 50;
+//    CGFloat w= s.width;
+//    ChatBar *chatBar = [[ChatBar alloc] initWithFrame:CGRectMake(x, y, w, h)];
+//    [self.view addSubview:chatBar];
 }
 
 //键盘覆盖输入框
