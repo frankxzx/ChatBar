@@ -13,6 +13,8 @@
 		01B92BFC1CF2F01F00E348AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B92BFA1CF2F01F00E348AC /* Main.storyboard */; };
 		01B92BFE1CF2F01F00E348AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B92BFD1CF2F01F00E348AC /* Assets.xcassets */; };
 		01B92C011CF2F01F00E348AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B92BFF1CF2F01F00E348AC /* LaunchScreen.storyboard */; };
+		01B92C0C1CF2F05300E348AC /* ChatBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B92C0B1CF2F05300E348AC /* ChatBar.xib */; };
+		01B92C0F1CF2F0A300E348AC /* ChatBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B92C0E1CF2F0A300E348AC /* ChatBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		01B92BFD1CF2F01F00E348AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01B92C001CF2F01F00E348AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01B92C021CF2F01F00E348AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B92C0B1CF2F05300E348AC /* ChatBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatBar.xib; sourceTree = "<group>"; };
+		01B92C0D1CF2F0A300E348AC /* ChatBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBar.h; sourceTree = "<group>"; };
+		01B92C0E1CF2F0A300E348AC /* ChatBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				01B92BF51CF2F01F00E348AC /* AppDelegate.m */,
 				01B92BF71CF2F01F00E348AC /* ViewController.h */,
 				01B92BF81CF2F01F00E348AC /* ViewController.m */,
+				01B92C0D1CF2F0A300E348AC /* ChatBar.h */,
+				01B92C0E1CF2F0A300E348AC /* ChatBar.m */,
+				01B92C0B1CF2F05300E348AC /* ChatBar.xib */,
 				01B92BFA1CF2F01F00E348AC /* Main.storyboard */,
 				01B92BFD1CF2F01F00E348AC /* Assets.xcassets */,
 				01B92BFF1CF2F01F00E348AC /* LaunchScreen.storyboard */,
@@ -136,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B92C0C1CF2F05300E348AC /* ChatBar.xib in Resources */,
 				01B92C011CF2F01F00E348AC /* LaunchScreen.storyboard in Resources */,
 				01B92BFE1CF2F01F00E348AC /* Assets.xcassets in Resources */,
 				01B92BFC1CF2F01F00E348AC /* Main.storyboard in Resources */,
@@ -150,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B92BF91CF2F01F00E348AC /* ViewController.m in Sources */,
+				01B92C0F1CF2F0A300E348AC /* ChatBar.m in Sources */,
 				01B92BF61CF2F01F00E348AC /* AppDelegate.m in Sources */,
 				01B92BF31CF2F01F00E348AC /* main.m in Sources */,
 			);
@@ -300,6 +310,7 @@
 				01B92C071CF2F01F00E348AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

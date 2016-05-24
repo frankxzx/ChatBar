@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChatBar">
+            <connections>
+                <outlet property="textView" destination="tVe-7V-TP4" id="jcW-19-G5W"/>
+                <outlet property="view" destination="iN0-l3-epB" id="XkQ-tq-Scq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="67"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Udw-Xm-PyM">
+                    <rect key="frame" x="15" y="5" width="357" height="57"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="22333333" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tVe-7V-TP4">
+                            <rect key="frame" x="0.0" y="0.0" width="312" height="57"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRW-VC-Mu3">
+                            <rect key="frame" x="327" y="0.0" width="30" height="57"/>
+                            <state key="normal" title="发送"/>
+                            <connections>
+                                <action selector="sendClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="AMO-wE-8zP"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Udw-Xm-PyM" secondAttribute="bottom" constant="5" id="b8X-Oh-GqJ"/>
+                <constraint firstAttribute="trailing" secondItem="Udw-Xm-PyM" secondAttribute="trailing" constant="15" id="fJ6-yk-nEL"/>
+                <constraint firstItem="Udw-Xm-PyM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="fkR-i4-Vsl"/>
+                <constraint firstItem="Udw-Xm-PyM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="pkY-ZA-9pY"/>
+                <constraint firstItem="Udw-Xm-PyM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="sZq-IH-czw"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="sZq-IH-czw"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="179.5" y="199.5"/>
+        </view>
+    </objects>
+</document>
